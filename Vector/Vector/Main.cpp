@@ -24,7 +24,7 @@ int main() {
 	cout << "c:" << je.size() << "-" << "s:" << je.capacity() << endl;
 	cout << je.at(5) << endl;
 	Moj_Vector ja(3);
-	cout << ja.size();
+	cout << ja.size()<<endl;
 	Moj_Vector jo(4, 5);
 
 	for (int i = 0; i < jo.size(); i++)
