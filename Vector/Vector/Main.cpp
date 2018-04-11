@@ -18,10 +18,10 @@ d) Dohvat elementa na mjestu i
 int main() {
 	Moj_Vector je = { 1,2,3,4,5 };
 
-	cout << "c:" << je.size() << "-" << "s:" << je.capacity() << endl;
+	cout << "s:" << je.size() << "-" << "c:" << je.capacity() << endl;
 	je.push_back(10);
 
-	cout << "c:" << je.size() << "-" << "s:" << je.capacity() << endl;
+	cout << "s:" << je.size() << "-" << "c:" << je.capacity() << endl;
 	cout << je.at(5) << endl;
 	Moj_Vector ja(3);
 	cout << ja.size()<<endl;
